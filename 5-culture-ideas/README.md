@@ -4,6 +4,6 @@
 
 [← catalog](../README.md)
 
-_magazines, blogs, consciousness, discovery feeds_
+_magazines, blogs, publishers, consciousness, discovery feeds_
 
-**Sections:** [blogs](blogs/README.md) (19) · [Design](design/README.md) (9) · [Consciousness](consciousness/README.md) (6) · [Discovery](discovery/README.md) (3) · [Ideas & Media](ideas-and-media/README.md) (3) · [Storytelling](storytelling/README.md) (3) · [Ads](ads/README.md) (2) · [Futurism](futurism/README.md) (2) · [Tuts](tuts/README.md) (1)
+**Sections:** [blogs](blogs/README.md) (19) · [Design](design/README.md) (9) · [Consciousness](consciousness/README.md) (6) · [Discovery](discovery/README.md) (3) · [Ideas & Media](ideas-and-media/README.md) (3) · [Publishers](publishers/README.md) (3) · [Storytelling](storytelling/README.md) (3) · [Ads](ads/README.md) (2) · [Futurism](futurism/README.md) (2) · [Tuts](tuts/README.md) (1)

@@ -21,7 +21,7 @@ The catalog holds two different things, and they are judged differently:
 | 🧰 Utility | `utility` | what it is for — generators, services, shops, calendars, feeds |
 
 `catalog.jsonl` carries a default `nature` (utility for the kinds `tool`, `service`,
-`shop`, `gear`, `course`; taste otherwise); a rating can override it. Only taste
+`shop`, `gear`, `course`, `publisher`; taste otherwise); a rating can override it. Only taste
 verdicts say anything about taste, so only they ever leave this repository as taste.
 
 ## 1. Verdict — exactly one
@@ -76,7 +76,7 @@ side across many ratings says where the work wants to go, and what it refuses.
 | role | value | applies to |
 |---|---|---|
 | 📚 Reference | `reference` — look at it | taste objects |
-| 🔁 Taste sweep | `sweep` — revisit regularly for new work | taste objects |
+| 🔁 Taste sweep | `sweep` — revisit regularly for new work | both: curated sources (publishers, galleries, aggregators) are usually utilities |
 | 🛠 Tool | `tool` — make with it | both |
 | 📅 Content ideas | `ideas` — occasions and topics for content | both |
 | 🎓 Learn | `learn` | both |
@@ -98,6 +98,7 @@ one way only, catalog → lab:
 - a pole pair that leans one way in at least 80% of at least 10 ratings is proposed as a line
   of the lab's taste vector, in the form "<side> — refusing <other side>"; the line is
   written into the vector by the owner, never automatically;
-- links with the `sweep` role join the list of sources the lab revisits weekly;
+- links with the `sweep` role join the list of sources the lab revisits weekly — and so does every
+  link in `5-culture-ideas/publishers/`, as a folder rule (owner, 2026-10-02);
   links with the `ideas` role join the content-calendar sources;
 - the whole catalog is indexed into the lab's knowledge base.

@@ -24,7 +24,6 @@
 |  | [John Hee Taek Chae Online Portfolio](https://www.john-chae.com/) | `artist` |  |
 |  | [malikafavre](https://www.malikafavre.com/) | `artist` |  |
 |  | [melbartdiary SASCHA BRAUNIG combines vibrant... Lustik](https://lustik.tumblr.com/post/37982296789/melbartdiary-sascha-braunig-combines-vibrant) | `artist` |  |
-|  | [Phaidon (formerly Artspace)](https://www.phaidon.com/en-us) | `gallery` |  |
 |  | [SoulScapes Integral Life](http://integrallife.com/art-galleries/soulscapes) | `artist` |  |
 | 🪦 | [Space Suit of the Week The Fox Is Black](http://www.thefoxisblack.com/category/science/space-suit-of-the-week/) · [archive](https://web.archive.org/web/20210309165246/http://thefoxisblack.com/category/science/space-suit-of-the-week/) | `artist` |  |
 |  | [Synaptic Stimuli](https://www.synapticstimuli.com/) | `artist` |  |

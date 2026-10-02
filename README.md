@@ -4,23 +4,23 @@
 
 A hand-collected library of web resources for designers, artists and makers — galleries, studios, magazines, tools — gathered over years of bookmarking and now sorted, link-checked and (gradually) rated.
 
-**426 links** · 376 alive · 0 redirected · 0 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
+**428 links** · 378 alive · 0 redirected · 0 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
 
 ## Axes
 
-- 🎨 **[Image](1-image/README.md)** (106) — illustration, painting, photography — what a single frame can hold
+- 🎨 **[Image](1-image/README.md)** (105) — illustration, painting, photography — what a single frame can hold
 - 🖥 **[Interface & Print](2-interface-print/README.md)** (110) — web, type, print, presentation, social posts
 - 🏛 **[Space & Object](3-space-object/README.md)** (31) — architecture, installations, industrial design, fashion
 - 🎞 **[Motion & Sound](4-motion-sound/README.md)** (75) — VJing, mixed reality, video, music
-- 💭 **[Culture & Ideas](5-culture-ideas/README.md)** (48) — magazines, blogs, consciousness, discovery feeds
+- 💭 **[Culture & Ideas](5-culture-ideas/README.md)** (51) — magazines, blogs, publishers, consciousness, discovery feeds
 - 📰 **[Feeds](6-feeds/README.md)** (56) — news and reading, kept for the record — not inspiration as such
 
 ## Tree
 
 ```
 inspo/
-├── 1-image/  (106)
-│   ├── illustrations/  (65)
+├── 1-image/  (105)
+│   ├── illustrations/  (64)
 │   │   ├── communities/  (12)
 │   │   ├── integral-art/  (10)
 │   │   ├── geometric/  (8)
@@ -92,12 +92,13 @@ inspo/
 │   ├── video-channels/  (12)
 │   ├── movies/  (2)
 │   └── youtube/  (1)
-├── 5-culture-ideas/  (48)
+├── 5-culture-ideas/  (51)
 │   ├── blogs/  (19)
 │   ├── design/  (9)
 │   ├── consciousness/  (6)
 │   ├── discovery/  (3)
 │   ├── ideas-and-media/  (3)
+│   ├── publishers/  (3)
 │   ├── storytelling/  (3)
 │   │   ├── shortread/  (2)
 │   │   └── longread/  (1)
@@ -130,7 +131,7 @@ inspo/
 | 🪦 | gone; `archive` points to the Wayback Machine copy |
 | · | not checked yet |
 
-**Kind:** `artist` · `gallery` · `magazine` · `community` · `collection` · `reference` · `example` · `tool` · `service` · `foundry` · `gear` · `shop` · `label` · `channel` · `course`
+**Kind:** `artist` · `gallery` · `magazine` · `community` · `collection` · `reference` · `example` · `tool` · `service` · `foundry` · `publisher` · `gear` · `shop` · `label` · `channel` · `course`
 
 **Rating:** taste objects 🔥 core · ✅ take · 👀 watch · 🧊 archive · ✕ pass; utilities 🧰 keep · 🧊 archive · ✕ drop; ⭐ recommended — see [CHIPS.md](CHIPS.md)
 

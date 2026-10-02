@@ -14,7 +14,7 @@ AXES = {
     "2-interface-print": ("🖥", "Interface & Print", "web, type, print, presentation, social posts"),
     "3-space-object": ("🏛", "Space & Object", "architecture, installations, industrial design, fashion"),
     "4-motion-sound": ("🎞", "Motion & Sound", "VJing, mixed reality, video, music"),
-    "5-culture-ideas": ("💭", "Culture & Ideas", "magazines, blogs, consciousness, discovery feeds"),
+    "5-culture-ideas": ("💭", "Culture & Ideas", "magazines, blogs, publishers, consciousness, discovery feeds"),
     "6-feeds": ("📰", "Feeds", "news and reading, kept for the record — not inspiration as such"),
 }
 STATUS = {"alive": "", "redirected": "↪", "blocked": "🛡", "moved": "🪦", "dead": "🪦", "unchecked": "·"}
@@ -129,7 +129,7 @@ def build():
         "| 🪦 | gone; `archive` points to the Wayback Machine copy |", "| · | not checked yet |",
         "",
         "**Kind:** `artist` · `gallery` · `magazine` · `community` · `collection` · `reference` · "
-        "`example` · `tool` · `service` · `foundry` · `gear` · `shop` · `label` · `channel` · `course`\n",
+        "`example` · `tool` · `service` · `foundry` · `publisher` · `gear` · `shop` · `label` · `channel` · `course`\n",
         "**Rating:** taste objects 🔥 core · ✅ take · 👀 watch · 🧊 archive · ✕ pass; "
         "utilities 🧰 keep · 🧊 archive · ✕ drop; ⭐ recommended — see [CHIPS.md](CHIPS.md)\n",
         "## How it is built\n",

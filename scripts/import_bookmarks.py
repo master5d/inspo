@@ -109,7 +109,7 @@ FIX = {"Intuitive Muisc Instruments": "Intuitive Music Instruments", "Geneology"
 
 # nature: a taste object is judged by how it is made, a utility by what it is for (CHIPS.md).
 # Only the default — the owner flips it per link on the rating page.
-UTILITY_KINDS = {"tool", "service", "shop", "gear", "course"}
+UTILITY_KINDS = {"tool", "service", "shop", "gear", "course", "publisher"}
 TRACKING = re.compile(r"(?i)^(utm_.*|fbclid|gclid|mc_eid|mc_cid|yclid|_hsenc|_hsmi)$")
 
 
