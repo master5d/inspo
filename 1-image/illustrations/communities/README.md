@@ -8,13 +8,13 @@
 |---|---|---|---|
 |  | [AvantForm - Digital Art & Animation from Advanced Creators](https://avant-form.webflow.io/) | `community` |  |
 |  | [Concept Art World: Concept Art, Illustration & Visual Design](https://conceptartworld.com/) | `community` |  |
-| 🛡 | [Creative COW – Creative Communities of the World – The peer to peer support community for media production professionals](https://creativecow.net/) | `community` |  |
+|  | [Creative COW – Creative Communities of the World – The peer to peer support community for media production professionals](https://creativecow.net/) | `community` |  |
 |  | [DeviantArt - Discover The Largest Online Art Gallery and Community](https://www.deviantart.com/) | `community` |  |
 |  | [Dribbble - Discover the World’s Top Designers & Creative Professionals](https://dribbble.com/) | `community` |  |
 |  | [Flickr](https://www.flickr.com/photos/tags) | `community` |  |
-| 🛡 | [Free Vector Art & Graphics](https://www.freevector.com/) | `community` |  |
+|  | [Free Vector Art & Graphics](https://www.freevector.com/) | `community` |  |
 |  | [Logo Design, Web Design and More. 99designs](https://99designs.com/) | `community` |  |
 |  | [Logopond - Logo, Brand & Identity Inspiration](https://logopond.com/) | `community` |  |
 |  | [Pixelbuddha - Free Graphic Design Resources](https://pixelbuddha.net/) | `community` |  |
-| 🛡 | [Showcase, Discover, and Hire Creatives :: Behance](https://www.behance.net/) | `community` |  |
+|  | [Showcase, Discover, and Hire Creatives :: Behance](https://www.behance.net/) | `community` |  |
 |  | [Trending topics on Tumblr](https://www.tumblr.com/) | `community` |  |

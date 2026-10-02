@@ -6,9 +6,8 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [Almanac 2025 \| Grateful Dead](https://www.dead.net/almanac) | `artist` |  |
+|  | [Almanac 2025 \| Grateful Dead](https://www.dead.net/almanac) | `artist` |  |
 |  | [FUZZ - Home - Trending](https://www.fuzz.com/) | `artist` |  |
-| 🛡 | [Index of ftp disk.karelia.pro public k kitsch Uploads Akira Kosemura It_s On Everything (2007) \[FLAC\]](http://www.mmnt.net/db/0/0/disk.karelia.pro/public/k/kitsch/Uploads/Akira%20Kosemura/It_s%20On%20Everything%20(2007)%20%5BFLAC%5D) | `artist` |  |
 |  | [Music \| Steve Brand](https://steve-brand.bandcamp.com/) | `artist` |  |
 |  | [Portfolio \| AmandaGregory.com](https://www.amandagregory.com/) | `artist` |  |
 |  | [Группа Унесенные Ветки](https://www.vetok.net/) | `artist` |  |

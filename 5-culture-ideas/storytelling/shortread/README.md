@@ -6,5 +6,5 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [Medium – Get smarter about what matters to you.](https://medium.com/) | `magazine` |  |
+|  | [Medium – Get smarter about what matters to you.](https://medium.com/) | `magazine` |  |
 |  | [The Atavist Magazine](https://magazine.atavist.com/) | `magazine` |  |

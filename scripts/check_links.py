@@ -58,16 +58,37 @@ def _wayback_once(url, ts):
         return None
 
 
+def _wayback_cdx(url, ts):
+    """The CDX index is the ground truth; the availability API is a cache in front of it."""
+    params = {"url": url, "output": "json", "filter": "statuscode:200", "limit": "1",
+              "closest": ts or "2017", "sort": "closest", "fl": "timestamp,original"}
+    q = "https://web.archive.org/cdx/search/cdx?" + urllib.parse.urlencode(params)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(q, headers=UA), timeout=40, context=CTX) as r:
+            rows = json.load(r)
+    except Exception:  # noqa: BLE001
+        return None
+    if len(rows) < 2:
+        return None
+    stamp, original = rows[1]
+    return f"https://web.archive.org/web/{stamp}/{original}"
+
+
 def wayback(url, added):
-    """Closest snapshot. The availability API often answers empty on the first call (seen
-    2026-10-02: 4 of 4 "no copy" links had one on retry), so a single miss is not absence:
-    try dated, then undated, then with the path trimmed of stray whitespace and slashes."""
+    """Closest snapshot. The availability API answers empty for pages that ARE archived
+    (2026-10-02: 5 of 5 "no copy" verdicts were wrong — four on retry, be-at.tv only in CDX),
+    so a miss there is not absence: fall back to the CDX index before saying "no copy"."""
     ts = (added or "").replace("-", "") or "2017"
-    for u in dict.fromkeys([url, url.replace("%20", "").rstrip("/")]):
+    variants = list(dict.fromkeys([url, url.replace("%20", "").rstrip("/")]))
+    for u in variants:
         for t in (ts, None):
             w = _wayback_once(u, t)
             if w:
                 return w
+    for u in variants:
+        w = _wayback_cdx(u, ts)
+        if w:
+            return w
     return None
 
 

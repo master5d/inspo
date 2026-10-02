@@ -8,5 +8,5 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [Home Theater Reviews, HDTV, HDMI Receivers](https://www.audioholics.com/) | `reference` |  |
+|  | [Home Theater Reviews, HDTV, HDMI Receivers](https://www.audioholics.com/) | `reference` |  |
 |  | [Love Ceramics? Want to Learn Pottery? Join The Ceramic School!](https://ceramic.school/) | `reference` |  |

@@ -7,5 +7,5 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [Advice and Insights for Entrepreneurs \| OnStartups](https://www.onstartups.com/) | `magazine` |  |
-| 🛡 | [Both Sides of the Table 2x Entrepreneur turned VC](http://www.bothsidesofthetable.com/) | `magazine` |  |
+|  | [Both Sides of the Table 2x Entrepreneur turned VC](https://medium.com/both-sides-of-the-table) | `magazine` |  |
 |  | [chris dixon's blog](https://cdixon.org/) | `magazine` |  |

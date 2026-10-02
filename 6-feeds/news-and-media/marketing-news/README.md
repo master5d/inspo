@@ -7,7 +7,7 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [Ad operations news, conferences, events, services, community AdMonsters](https://www.admonsters.com/) | `magazine` |  |
-| 🛡 | [Advertising Age - Advertising Agency & Marketing Industry News - Advertising Age](http://adage.com/) | `magazine` |  |
+|  | [Advertising Age - Advertising Agency & Marketing Industry News - Advertising Age](http://adage.com/) | `magazine` |  |
 |  | [Brian Honigman's Digital Marketing Blog](http://www.brianhonigman.com/blog/) | `magazine` |  |
 |  | [GrowthHackers - A Community for Agile Growth Obsessed Marketers and Developers to Connect, Share and Get Inspired](https://growthhackers.com/) | `magazine` |  |
 |  | [IAB - Dedicated to the Growth of the Interactive Advertising Marketplace](https://www.iab.com/) | `magazine` |  |

@@ -6,7 +6,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [BE-AT.TV Features](http://www.be-at.tv/) | `channel` |  |
+| 🪦 | [BE-AT.TV Features](http://www.be-at.tv/) · [archive](https://web.archive.org/web/20170101123327/http://be-at.tv/) | `channel` |  |
 |  | [chatroulette](https://chatroulette.com/) | `channel` |  |
 | 🛡 | [Film Movement](http://www.filmmovement.com/) | `channel` |  |
 |  | [Netflix](https://www.netflix.com/) | `channel` |  |

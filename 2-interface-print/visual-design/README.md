@@ -8,4 +8,4 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [TinEye Reverse Image Search](https://tineye.com/) | `tool` |  |
+|  | [TinEye Reverse Image Search](https://tineye.com/) | `tool` |  |

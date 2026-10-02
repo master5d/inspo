@@ -6,4 +6,4 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [The Structure Sensor is the first 3D sensor for mobile devices](http://structure.io/) | `reference` |  |
+|  | [The Structure Sensor is the first 3D sensor for mobile devices](http://structure.io/) | `reference` |  |

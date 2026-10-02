@@ -6,22 +6,22 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [0xintuition \| Linktree](https://linktr.ee/0xintuition) | `example` |  |
-| 🛡 | [@imiloa.institute Lnk.Bio · link in bio](https://lnk.bio/imiloainstitute) | `example` |  |
-| 🛡 | [@Mysticmamma \| Linktree](https://linktr.ee/Mysticmamma) | `example` |  |
-| 🛡 | [@weareplanetmojo \| Twitter \| Linktree](https://linktr.ee/planetmojo) | `example` |  |
-| 🛡 | [BassForge \| Instagram, TikTok \| Linktree](https://linktr.ee/staticintheattic) | `example` |  |
-| 🛡 | [geoship \| Twitter, Instagram, Facebook \| Linktree](https://linktr.ee/geoship) | `example` |  |
-| 🛡 | [Global Entrepreneurs Hub \| Linktree](https://linktr.ee/global.entrepreneurs.hub) | `example` |  |
+|  | [0xintuition \| Linktree](https://linktr.ee/0xintuition) | `example` |  |
+|  | [@imiloa.institute Lnk.Bio · link in bio](https://lnk.bio/imiloainstitute) | `example` |  |
+|  | [@Mysticmamma \| Linktree](https://linktr.ee/Mysticmamma) | `example` |  |
+|  | [@weareplanetmojo \| Twitter \| Linktree](https://linktr.ee/planetmojo) | `example` |  |
+|  | [BassForge \| Instagram, TikTok \| Linktree](https://linktr.ee/staticintheattic) | `example` |  |
+|  | [geoship \| Twitter, Instagram, Facebook \| Linktree](https://linktr.ee/geoship) | `example` |  |
+|  | [Global Entrepreneurs Hub \| Linktree](https://linktr.ee/global.entrepreneurs.hub) | `example` |  |
 |  | [Inaya.festival at Taplink](https://taplink.cc/inaya.festival) | `example` |  |
 |  | [Links — Kaia Luna](https://www.kaialunalove.com/links) | `example` |  |
-| 🛡 | [Mei-lan Maurits \| Linktree](https://linktr.ee/meilanmaurits) | `example` |  |
-| 🛡 | [mycopreneur - Listen on Spotify - Linktree](https://linktr.ee/mycopreneur) | `example` |  |
+|  | [Mei-lan Maurits \| Linktree](https://linktr.ee/meilanmaurits) | `example` |  |
+|  | [mycopreneur - Listen on Spotify - Linktree](https://linktr.ee/mycopreneur) | `example` |  |
 |  | [POLE - ИСТОКИ \| BandLink](https://band.link/POLEISTOKI) | `example` |  |
 |  | [shamanamama.taplink.ws](https://shamanamama.taplink.ws/) | `example` |  |
 |  | [Spiritual_father_andrey at Taplink](https://taplink.cc/spiritual_father_andrey) | `example` |  |
 | 🛡 | [supermooncamp - Link in Bio & Creator Tools \| Beacons](https://beacons.ai/supermooncamp) | `example` |  |
-| 🛡 | [The Whitelight Collective \| Linktree](https://linktr.ee/thewhitelightcollective) | `example` |  |
+|  | [The Whitelight Collective \| Linktree](https://linktr.ee/thewhitelightcollective) | `example` |  |
 |  | [Tvoeotrazhenie at Taplink](https://taplink.cc/tvoeotrazhenie) | `example` |  |
 | 🪦 | [Виталина Скворцова-Охрицкая](https://workshop.govita.ru/link) · [archive](https://web.archive.org/web/20250225063050/https://workshop.govita.ru/link) | `example` |  |
 |  | [Синхронизация онлайн-курсы](https://taplink.cc/synchronize_art) | `example` |  |

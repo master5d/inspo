@@ -15,4 +15,4 @@
 | 🪦 | [Parable Visions Art By Cameron Gray](https://parablevisions.com/gallery/) · [archive](https://web.archive.org/web/20180525203111/https://parablevisions.com/gallery/) | `artist` |  |
 |  | [Pumayana Visionary Artist - Official page of Visionary Artist PUMAYANA](https://pumayana.com/) | `artist` |  |
 | 🪦 | [Rosenfeld: Ilustraciones \| Ilustraciones](http://www.rosenfeld.daportfolio.com/gallery/19776#12) · [archive](https://web.archive.org/web/20160315154658/http://www.rosenfeld.daportfolio.com:80/gallery/19776) | `artist` |  |
-| 🛡 | [Shawn Thornton Paintings - an album on Flickr](https://www.flickr.com/photos/shawnthornton/sets/72157627356593056/) | `artist` |  |
+| 🪦 | [Shawn Thornton Paintings - an album on Flickr](https://www.flickr.com/photos/shawnthornton/sets/72157627356593056/) · [archive](https://web.archive.org/web/20160818062701/https://www.flickr.com/photos/shawnthornton/sets/72157627356593056/) | `artist` |  |

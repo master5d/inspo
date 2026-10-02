@@ -8,4 +8,4 @@
 |---|---|---|---|
 |  | [DSPTCH - Substance Driven Design. Made in USA.](https://www.dsptch.com/) | `gear` |  |
 |  | [Lensbaby - See in a New Way](https://lensbaby.com/index.php) | `gear` |  |
-| 🛡 | [Lomography Shop – Buy Analogue Cameras, Films & Accessories](http://shop.lomography.com/us) | `gear` |  |
+|  | [Lomography Shop – Buy Analogue Cameras, Films & Accessories](http://shop.lomography.com/us) | `gear` |  |

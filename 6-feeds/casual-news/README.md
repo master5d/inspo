@@ -7,7 +7,7 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [Bored Panda - The Only Magazine For Pandas](https://www.boredpanda.com/) | `magazine` |  |
-| 🛡 | [Fast Company \| The future of business](https://www.fastcompany.com/) | `magazine` |  |
+|  | [Fast Company \| The future of business](https://www.fastcompany.com/) | `magazine` |  |
 |  | [Greatist: Homepage](https://greatist.com/) | `magazine` |  |
 |  | [Lifehacker \| Do everything better](https://lifehacker.com/) | `magazine` |  |
 |  | [Mental Floss](https://www.mentalfloss.com/) | `magazine` |  |

@@ -11,7 +11,7 @@
 | 🛡 | [Beacons \| Free Link in Bio for Instagram, TikTok, YouTube](https://beacons.ai/) | `tool` |  |
 |  | [Link In Bio Tool for Instagram and TikTok - Taplink](https://taplink.at/en/) | `tool` |  |
 |  | [Link in bio tool: Everything you are, in one simple link \| Linktree](https://linktr.ee/) | `tool` |  |
-| 🛡 | [Lnk.Bio - Supercharge your Link in Bio on Instagram, TikTok, YouTube ...](https://lnk.bio/) | `tool` |  |
+|  | [Lnk.Bio - Supercharge your Link in Bio on Instagram, TikTok, YouTube ...](https://lnk.bio/) | `tool` |  |
 |  | [Shor.](https://dash.shor.by/smartpage) | `tool` |  |
 |  | [Top Link in Bio Tool for Instagram & TikTok \| Later Link in Bio](https://later.com/link-in-bio/) | `tool` |  |
 |  | [Waylight \| Link in BIO tool that helps you earn!](https://waylight.me/) | `tool` |  |

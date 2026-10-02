@@ -8,7 +8,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [Custom Presentation Design in PowerPoint, Keynote and more \| 24Slides](https://24slides.com/) | `service` |  |
+|  | [Custom Presentation Design in PowerPoint, Keynote and more \| 24Slides](https://24slides.com/) | `service` |  |
 |  | [Haiku Deck: Presentation Software and Online Presentation Tools](https://www.haikudeck.com/) | `service` |  |
 |  | [Microsoft Sway \| Create visually striking newsletters, presentations, and documentation in minutes](https://sway.cloud.microsoft/) | `service` |  |
 |  | [PowerPoint Agency - Slidor](https://www.slidor.agency/) | `service` |  |

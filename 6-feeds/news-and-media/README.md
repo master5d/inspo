@@ -12,4 +12,4 @@
 |  | [Explore / Twitter](https://x.com/explore) | `magazine` |  |
 |  | [Harvard Business Review - Ideas and Advice for Leaders](https://hbr.org/) | `magazine` |  |
 |  | [News for the Creator Economy, Creators, YouTube, TikTok, Twitch, Instagram, and More \| Tubefilter.com](https://www.tubefilter.com/) | `magazine` |  |
-| 🛡 | [Quartz — Global business news and insights](https://qz.com/) | `magazine` |  |
+|  | [Quartz — Global business news and insights](https://qz.com/) | `magazine` |  |

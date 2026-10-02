@@ -21,7 +21,7 @@
 |  | [GRAVITY GLUE](https://gravityglue.com/) | `artist` |  |
 |  | [Jay Mark Johnson —](https://www.jaymarkjohnson.com/) | `artist` |  |
 |  | [Light painting](https://en.wikipedia.org/wiki/Light_painting) | `reference` |  |
-| 🛡 | [Medicina Rossa on the Behance Network](http://www.behance.net/Gallery/Medicina-Rossa/414640) | `artist` |  |
+|  | [Medicina Rossa on the Behance Network](http://www.behance.net/Gallery/Medicina-Rossa/414640) | `artist` |  |
 |  | [M∆TRIX BOT∆NIC∆](https://matrixbotanica.tumblr.com/) | `artist` |  |
 |  | [Neil Krug](https://neilkrug.com/) | `artist` |  |
 |  | [Photocompete - Open Photo Contests & Competitions 2026-2027](https://www.photocompete.com/) | `reference` |  |

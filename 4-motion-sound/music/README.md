@@ -4,7 +4,7 @@
 
 [← catalog](../../README.md) · [↑ up](../README.md)
 
-**Sections:** [music making](music-making/README.md) (7) · [Services](services/README.md) (7) · [Artists](artists/README.md) (6) · [Discovery](discovery/README.md) (6) · [purchase](purchase/README.md) (4) · [Apps](apps/README.md) (3) · [Intuitive Music Instruments](intuitive-music-instruments/README.md) (3) · [Labels](labels/README.md) (2) · [Server](server/README.md) (2) · [AR/VR Sound](ar-vr-sound/README.md) (1) · [Vinyl](vinyl/README.md) (1)
+**Sections:** [music making](music-making/README.md) (7) · [Services](services/README.md) (7) · [Discovery](discovery/README.md) (6) · [Artists](artists/README.md) (5) · [purchase](purchase/README.md) (4) · [Apps](apps/README.md) (3) · [Intuitive Music Instruments](intuitive-music-instruments/README.md) (3) · [Labels](labels/README.md) (2) · [Server](server/README.md) (2) · [AR/VR Sound](ar-vr-sound/README.md) (1) · [Vinyl](vinyl/README.md) (1)
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
