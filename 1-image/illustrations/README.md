@@ -10,7 +10,6 @@
 |---|---|---|---|
 |  | [Adam Martinakis](http://adamakis.blogspot.com/) | `artist` |  |
 |  | [Alberto Seveso, official Web Page \| Alberto Seveso](https://www.behance.net/indiffident) | `artist` |  |
-|  | [Artspace - Contemporary Art for Sale From The World's Best Artists - home page](https://www.phaidon.com/en-us/pages/artspace) | `gallery` |  |
 | 🪦 | [brandpowder - experiments in visual communication](https://www.brandpowder.com/) · [archive](https://web.archive.org/web/20250224072240/https://www.brandpowder.com/) | `artist` |  |
 |  | [Brian Nori – – Discover the work and career of artist Brian Nori. Artworks, biography, exhibitions, editorial content, news, museum exhibitions, press, and more.](https://briannori.com/) | `artist` |  |
 |  | [conradroset](http://conradroset.blogspot.com/) | `artist` |  |
@@ -25,6 +24,7 @@
 |  | [John Hee Taek Chae Online Portfolio](https://www.john-chae.com/) | `artist` |  |
 |  | [malikafavre](https://www.malikafavre.com/) | `artist` |  |
 |  | [melbartdiary SASCHA BRAUNIG combines vibrant... Lustik](https://lustik.tumblr.com/post/37982296789/melbartdiary-sascha-braunig-combines-vibrant) | `artist` |  |
+|  | [Phaidon (formerly Artspace)](https://www.phaidon.com/en-us) | `gallery` |  |
 |  | [SoulScapes Integral Life](http://integrallife.com/art-galleries/soulscapes) | `artist` |  |
 | 🪦 | [Space Suit of the Week The Fox Is Black](http://www.thefoxisblack.com/category/science/space-suit-of-the-week/) · [archive](https://web.archive.org/web/20210309165246/http://thefoxisblack.com/category/science/space-suit-of-the-week/) | `artist` |  |
 |  | [Synaptic Stimuli](https://www.synapticstimuli.com/) | `artist` |  |
