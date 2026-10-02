@@ -8,9 +8,8 @@
 |---|---|---|---|
 | 🪦 | [BE-AT.TV Features](http://www.be-at.tv/) · [archive](https://web.archive.org/web/20170101123327/http://be-at.tv/) | `channel` |  |
 |  | [chatroulette](https://chatroulette.com/) | `channel` |  |
-| 🛡 | [Film Movement](http://www.filmmovement.com/) | `channel` |  |
+|  | [Film Movement](https://www.filmmovement.com/) | `channel` |  |
 |  | [Netflix](https://www.netflix.com/) | `channel` |  |
-| 🛡 | [Popcorn Time - Download](http://www.time4popcorn.eu/) | `channel` |  |
 |  | [Popcornflix](https://popcornflix.com/) | `channel` |  |
 |  | [South Park Studios](https://southpark.cc.com/) | `channel` |  |
 |  | [ustream](https://video.ibm.com/) | `channel` |  |

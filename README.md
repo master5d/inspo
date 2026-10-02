@@ -4,14 +4,14 @@
 
 A hand-collected library of web resources for designers, artists and makers — galleries, studios, magazines, tools — gathered over years of bookmarking and now sorted, link-checked and (gradually) rated.
 
-**427 links** · 375 alive · 0 redirected · 2 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
+**426 links** · 376 alive · 0 redirected · 0 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
 
 ## Axes
 
 - 🎨 **[Image](1-image/README.md)** (106) — illustration, painting, photography — what a single frame can hold
 - 🖥 **[Interface & Print](2-interface-print/README.md)** (110) — web, type, print, presentation, social posts
 - 🏛 **[Space & Object](3-space-object/README.md)** (31) — architecture, installations, industrial design, fashion
-- 🎞 **[Motion & Sound](4-motion-sound/README.md)** (76) — VJing, mixed reality, video, music
+- 🎞 **[Motion & Sound](4-motion-sound/README.md)** (75) — VJing, mixed reality, video, music
 - 💭 **[Culture & Ideas](5-culture-ideas/README.md)** (48) — magazines, blogs, consciousness, discovery feeds
 - 📰 **[Feeds](6-feeds/README.md)** (56) — news and reading, kept for the record — not inspiration as such
 
@@ -69,7 +69,7 @@ inspo/
 │   ├── installations/  (5)
 │   ├── architecture/  (3)
 │   └── tiny-homes/  (1)
-├── 4-motion-sound/  (76)
+├── 4-motion-sound/  (75)
 │   ├── music/  (46)
 │   │   ├── music-making/  (7)
 │   │   ├── services/  (7)
@@ -89,7 +89,7 @@ inspo/
 │   │   │   ├── visuals/  (2)
 │   │   │   └── gear/  (1)
 │   │   └── vr-ar/  (1)
-│   ├── video-channels/  (13)
+│   ├── video-channels/  (12)
 │   ├── movies/  (2)
 │   └── youtube/  (1)
 ├── 5-culture-ideas/  (48)
