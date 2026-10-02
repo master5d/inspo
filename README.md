@@ -4,12 +4,12 @@
 
 A hand-collected library of web resources for designers, artists and makers — galleries, studios, magazines, tools — gathered over years of bookmarking and now sorted, link-checked and (gradually) rated.
 
-**432 links** · 366 alive · 0 redirected · 17 unverifiable (bot wall) · 49 gone, with archive copies where they exist · 0 rated
+**431 links** · 379 alive · 0 redirected · 2 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
 
 ## Axes
 
 - 🎨 **[Image](1-image/README.md)** (108) — illustration, painting, photography — what a single frame can hold
-- 🖥 **[Interface & Print](2-interface-print/README.md)** (111) — web, type, print, presentation, social posts
+- 🖥 **[Interface & Print](2-interface-print/README.md)** (110) — web, type, print, presentation, social posts
 - 🏛 **[Space & Object](3-space-object/README.md)** (31) — architecture, installations, industrial design, fashion
 - 🎞 **[Motion & Sound](4-motion-sound/README.md)** (78) — VJing, mixed reality, video, music
 - 💭 **[Culture & Ideas](5-culture-ideas/README.md)** (48) — magazines, blogs, consciousness, discovery feeds
@@ -40,7 +40,7 @@ inspo/
 │   │   └── wireless-mics/  (1)
 │   ├── mems/  (2)
 │   └── wallpapers/  (1)
-├── 2-interface-print/  (111)
+├── 2-interface-print/  (110)
 │   ├── visual-design/  (99)
 │   │   ├── insta-posts/  (45)
 │   │   │   ├── word-mosaic-cloud/  (8)
@@ -56,7 +56,7 @@ inspo/
 │   │   ├── data-viz/  (3)
 │   │   ├── merch/  (2)
 │   │   └── qr-codes/  (2)
-│   ├── web-trends/  (7)
+│   ├── web-trends/  (6)
 │   └── web-design/  (5)
 ├── 3-space-object/  (31)
 │   ├── industrial-design/  (15)

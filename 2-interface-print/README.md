@@ -6,4 +6,4 @@
 
 _web, type, print, presentation, social posts_
 
-**Sections:** [Visual Design](visual-design/README.md) (99) · [Web Trends](web-trends/README.md) (7) · [Web Design](web-design/README.md) (5)
+**Sections:** [Visual Design](visual-design/README.md) (99) · [Web Trends](web-trends/README.md) (6) · [Web Design](web-design/README.md) (5)

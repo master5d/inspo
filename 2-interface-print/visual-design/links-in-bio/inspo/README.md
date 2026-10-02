@@ -20,7 +20,7 @@
 |  | [POLE - ИСТОКИ \| BandLink](https://band.link/POLEISTOKI) | `example` |  |
 |  | [shamanamama.taplink.ws](https://shamanamama.taplink.ws/) | `example` |  |
 |  | [Spiritual_father_andrey at Taplink](https://taplink.cc/spiritual_father_andrey) | `example` |  |
-| 🛡 | [supermooncamp - Link in Bio & Creator Tools \| Beacons](https://beacons.ai/supermooncamp) | `example` |  |
+|  | [supermooncamp - Link in Bio & Creator Tools \| Beacons](https://beacons.ai/supermooncamp) | `example` |  |
 |  | [The Whitelight Collective \| Linktree](https://linktr.ee/thewhitelightcollective) | `example` |  |
 |  | [Tvoeotrazhenie at Taplink](https://taplink.cc/tvoeotrazhenie) | `example` |  |
 | 🪦 | [Виталина Скворцова-Охрицкая](https://workshop.govita.ru/link) · [archive](https://web.archive.org/web/20250225063050/https://workshop.govita.ru/link) | `example` |  |

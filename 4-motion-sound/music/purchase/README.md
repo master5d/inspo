@@ -7,6 +7,6 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [- Chants Meditation Music :: Tibetan Wind Buddhist Chants :: Creative Hand Nepal :: Nepal Trade Fair an Online Wholesale Handicraft Marketplace !](https://www.creativehandnepal.com/shop.php?product_id=3946) | `shop` |  |
-| 🛡 | [Azure Taint - Funky Elements buy 2x12 , Album at Discogs](http://www.discogs.com/buy/Vinyl/Azure-Taint-Funky-Elements/22708069?ev=bp_det) | `shop` |  |
-| 🛡 | [Twilight Immaculate by dBridge & Fierce Break & Hydro - MP3 Release - Boomkat - Your independent music specialist](http://boomkat.com/downloads/455267-dbridge-fierce-break-hydro-twilight-immaculate) | `shop` |  |
-| 🛡 | [Various - Lickable Beats Part 3 (Vinyl) at Discogs](http://www.discogs.com/Various-Lickable-Beats-Part-3/release/210633) | `shop` |  |
+|  | [Azure Taint - Funky Elements buy 2x12 , Album at Discogs](https://www.discogs.com/sell/release/49146) | `shop` |  |
+| 🪦 | [Twilight Immaculate by dBridge & Fierce Break & Hydro - MP3 Release - Boomkat - Your independent music specialist](http://boomkat.com/downloads/455267-dbridge-fierce-break-hydro-twilight-immaculate) · [archive](https://web.archive.org/web/20120528210635/http://boomkat.com/downloads/455267-dbridge-fierce-break-hydro-twilight-immaculate) | `shop` |  |
+|  | [Various - Lickable Beats Part 3 (Vinyl) at Discogs](https://www.discogs.com/release/210633-Various-Lickable-Beats-Part-3) | `shop` |  |

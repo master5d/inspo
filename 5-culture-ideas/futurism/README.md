@@ -7,4 +7,4 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [IFTF - The Future Is Wide Open](https://www.iftf.org/) | `reference` |  |
-| 🛡 | [World Citizen Government](https://worldcitizengov.org/) | `reference` |  |
+|  | [World Citizen Government](https://worldcitizengov.org/) | `reference` |  |

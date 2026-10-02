@@ -9,7 +9,6 @@
 |  | [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com/) | `gallery` |  |
 |  | [Creative Bloq \| Art and Design Inspiration](https://www.creativebloq.com/) | `gallery` |  |
 |  | [Design Trends](https://webdesignerwall.com/) | `gallery` |  |
-| 🛡 | [siteInspire - Web Design Inspiration](http://www.siteinspire.com/) | `gallery` |  |
 |  | [Smashing Magazine — For Web Designers And Developers](https://www.smashingmagazine.com/) | `gallery` |  |
 |  | [TNW](https://thenextweb.com/) | `gallery` |  |
 |  | [Webby Awards](https://www.webbyawards.com/) | `gallery` |  |

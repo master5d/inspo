@@ -9,7 +9,7 @@
 |  | [25 High-Quality Free World Map Templates](https://speckyboy.com/free-world-map-templates/) | `tool` |  |
 |  | [7 Best Word Cloud Generators - Free Word Map Maker Assignment Reviews](https://www.launchknowledge.com/7-best-word-cloud-generators-free-word-map-maker-assignment-reviews/) | `tool` |  |
 | 🪦 | [ImageChef Word Mosaic - Fun Word Collages](http://www.imagechef.com/ic/word_mosaic/) · [archive](https://web.archive.org/web/20200423144222/http://www.imagechef.com/ic/word_mosaic/) | `tool` |  |
-| 🛡 | [Tag Cloud Maker download \| SourceForge.net](https://sourceforge.net/projects/tagcloudmaker/) | `tool` |  |
+|  | [Tag Cloud Maker download \| SourceForge.net](https://sourceforge.net/projects/tagcloudmaker/) | `tool` |  |
 |  | [TagCrowd: create your own word cloud from any text](https://tagcrowd.com/) | `tool` |  |
 |  | [Word Cloud Generator](https://www.jasondavies.com/wordcloud/) | `tool` |  |
 |  | [WordArt.com - Word Cloud Art Creator](https://wordart.com/) | `tool` |  |

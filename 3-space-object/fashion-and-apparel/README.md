@@ -6,7 +6,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [A Visual History of the Sikh Turban - JungNihang - Medium](https://medium.com/@jodhsingh/a-visual-history-of-the-sikh-turban-ca294b58953b) | `reference` |  |
+|  | [A Visual History of the Sikh Turban - JungNihang - Medium](https://medium.com/@jodhsingh/a-visual-history-of-the-sikh-turban-ca294b58953b) | `reference` |  |
 |  | [Artist-Designed Wall Art, Home Decor, Tech and More \| Society6](https://society6.com/) | `reference` |  |
 |  | [Blog lifestyle pour nourrir vos envies - StyleCrave.com](https://stylecrave.com/) | `reference` |  |
 |  | [Diesel](https://diesel.com/) | `reference` |  |

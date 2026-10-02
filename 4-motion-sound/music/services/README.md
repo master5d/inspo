@@ -7,7 +7,7 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [A Soft Murmur](https://asoftmurmur.com/) | `tool` |  |
-| 🛡 | [Boomkat](https://boomkat.com/) | `tool` |  |
+|  | [Boomkat](https://boomkat.com/) | `tool` |  |
 |  | [Calibrated Background Noise Generators \| Online & Free](https://mynoise.net/) | `tool` |  |
 |  | [DI.FM - addictive electronic music](https://www.di.fm/) | `tool` |  |
 |  | [Discogs - Database and Marketplace for Music on Vinyl, CD, Cassette and More](http://www.discogs.com/) | `tool` |  |

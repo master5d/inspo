@@ -166,6 +166,13 @@ def item_id(u: str) -> str:
     return f"{slug(host(u))[:40]}-{hashlib.sha256(key.encode()).hexdigest()[:6]}"
 
 
+def same_page_key(u: str) -> str:
+    """Duplicate detection ignores scheme and www: http://www.x.com/ and https://x.com are one
+    page (siteInspire came in twice that way, 2026-10-02). The id keeps its original format."""
+    s = urlsplit(clean_url(u))
+    return f"{host(u)}{s.path.rstrip('/')}?{s.query}".lower()
+
+
 def place(path):
     if not path:
         return None
@@ -204,9 +211,9 @@ def main():
                 placed = ROOT[h]
             axis, sub, kind = placed
             iid = item_id(u)
-            if iid in seen:
+            if same_page_key(u) in seen:
                 dups.append(u); continue
-            seen.add(iid)
+            seen.add(same_page_key(u))
             added = (datetime.fromtimestamp(int(l["add_date"]), timezone.utc).date().isoformat()
                      if l.get("add_date") else None)
             rows.append({

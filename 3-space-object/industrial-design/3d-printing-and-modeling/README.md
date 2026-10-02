@@ -8,7 +8,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [3D Digitization \|](https://3d.si.edu/) | `reference` |  |
+|  | [3D Digitization \|](https://3d.si.edu/) | `reference` |  |
 |  | [3D Printing Service \| Shapeways](https://www.shapeways.com/) | `reference` |  |
 |  | [3ders.org - 3D printer and 3D printing news, trends and resources.](http://www.3ders.org/index.html) | `reference` |  |
 | 🪦 | [A Fashion Designer Is Creating The World's First Open-Source, 3D-Printed Dress \| The Creators Project](http://thecreatorsproject.vice.com/blog/a-fashion-designer-is-creating-the-worlds-first-open-sourced-3d-printed-dress) · [archive](https://web.archive.org/web/20160818132827/http://thecreatorsproject.vice.com/blog/a-fashion-designer-is-creating-the-worlds-first-open-sourced-3d-printed-dress) | `reference` |  |

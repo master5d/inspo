@@ -6,6 +6,6 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| 🛡 | [Dezeen Events Guide \| Architecture and design events](https://www.dezeen.com/eventsguide/) | `magazine` |  |
+|  | [Dezeen Events Guide \| Architecture and design events](https://www.dezeen.com/eventsguide/) | `magazine` |  |
 |  | [Reclaimed Timber Home in Wyoming Updates Tradition - Timber Home Living](http://www.timberhomeliving.com/updating-tradition/) | `magazine` |  |
 |  | [www.visiondivision.com](http://thegoldbrain.blogspot.com/) | `magazine` |  |

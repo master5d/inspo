@@ -7,7 +7,7 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [PatternTap \| ZURB Library](https://zurb.com/patterntap) | `gallery` |  |
-| 🛡 | [siteInspire - Web Design Inspiration](https://www.siteinspire.com/) | `gallery` |  |
+|  | [siteInspire - Web Design Inspiration](https://www.siteinspire.com/) | `gallery` |  |
 |  | [The Wilderness Downtown](http://www.thewildernessdowntown.com/) | `gallery` |  |
 |  | [Variant – Endless designs for your ideas, just scroll](https://variant.com/) | `gallery` |  |
 |  | [Web Design Blog \| Web Designer Depot](https://webdesignerdepot.com/) | `gallery` |  |
