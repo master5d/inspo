@@ -132,7 +132,7 @@ inspo/
 
 **Kind:** `artist` · `gallery` · `magazine` · `community` · `collection` · `reference` · `example` · `tool` · `service` · `foundry` · `gear` · `shop` · `label` · `channel` · `course`
 
-**Rating:** 🔥 core · ✅ take · 👀 watch · 🧊 archive · ✕ pass · ⭐ recommended — see [CHIPS.md](CHIPS.md)
+**Rating:** taste objects 🔥 core · ✅ take · 👀 watch · 🧊 archive · ✕ pass; utilities 🧰 keep · 🧊 archive · ✕ drop; ⭐ recommended — see [CHIPS.md](CHIPS.md)
 
 ## How it is built
 

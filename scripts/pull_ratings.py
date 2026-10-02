@@ -10,7 +10,7 @@ import json, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FIELDS = ("verdict", "why", "dims", "poles", "roles", "star")
+FIELDS = ("nature", "verdict", "why", "dims", "poles", "roles", "star")
 
 
 def main():

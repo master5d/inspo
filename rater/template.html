@@ -71,6 +71,8 @@ h1 { font: 700 clamp(26px, 4vw, 34px)/1.05 var(--display); letter-spacing: -0.01
 .chip.v-watch[aria-pressed="true"] { background: var(--watch); color: var(--watch-ink); }
 .chip.v-archive[aria-pressed="true"] { background: var(--archive); }
 .chip.v-reject[aria-pressed="true"] { background: var(--reject); }
+.chip.v-keep[aria-pressed="true"] { background: var(--take); }
+.chip.v-drop[aria-pressed="true"] { background: var(--reject); }
 .chip.star[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
 .chip[disabled] { opacity: .45; cursor: not-allowed; }
 .poles { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px 14px; }
@@ -100,6 +102,8 @@ textarea { font: 15px/1.45 var(--body); color: var(--ink); background: var(--pap
 .dot.watch { background: var(--watch); border-color: var(--watch); }
 .dot.archive { background: var(--archive); border-color: var(--archive); }
 .dot.reject { background: var(--reject); border-color: var(--reject); }
+.dot.keep { background: var(--take); border-color: var(--take); }
+.dot.drop { background: var(--reject); border-color: var(--reject); }
 .empty { color: var(--muted); padding: 24px; text-align: center; }
 @media (max-width: 560px) { .row .f { display: none } .card { padding: 16px } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important } }
@@ -135,12 +139,27 @@ textarea { font: 15px/1.45 var(--body); color: var(--ink); background: var(--pap
 <script>
 const CATALOG = /*CATALOG*/[];
 const AXES = /*AXES*/{};
-const VERDICTS = [
-  ["core", "🔥 Core", "a reference I return to"], ["take", "✅ Take", "worth carrying over"],
-  ["watch", "👀 Watch", "interesting, undecided"], ["archive", "🧊 Archive", "kept for the record"],
-  ["reject", "✕ Pass", "not my direction"],
-];
-const NEEDS_WHY = new Set(["core", "take", "reject"]);
+// A taste object is judged by how it is made; a utility by what it is for. Only taste
+// verdicts reach the taste ledger.
+const NATURES = [["taste", "🎨 Taste object", "judged by how it is made"], ["utility", "🧰 Utility", "judged by what it is for"]];
+const VERDICTS = {
+  taste: [
+    ["core", "🔥 Core", "a reference I return to"], ["take", "✅ Take", "worth carrying over"],
+    ["watch", "👀 Watch", "interesting, undecided"], ["archive", "🧊 Archive", "kept for the record"],
+    ["reject", "✕ Pass", "not my direction"]],
+  utility: [
+    ["keep", "🧰 Keep", "needed for work"], ["archive", "🧊 Archive", "kept for the record"],
+    ["drop", "✕ Drop", "not needed"]],
+};
+const NEEDS_WHY = new Set(["core", "take", "reject", "keep"]);
+const WHY_HINT = {
+  taste: "Core, Take and Pass need a why: it becomes an entry in the taste ledger.",
+  utility: "Keep needs a why: what you use it for. Utilities stay out of the taste ledger.",
+};
+const WHY_PLACEHOLDER = {
+  taste: "One line: what works here and why — e.g. “one colour field carries the whole composition”",
+  utility: "One line: what it is for — e.g. “source of occasions for the content calendar”",
+};
 const DIMS = [["form/proportion", "Form"], ["color/light", "Color & light"], ["type/letter", "Type"],
   ["rhythm/space", "Rhythm & space"], ["material/texture", "Material"], ["motion/time", "Motion"],
   ["mood/narrative", "Mood"], ["contrast/hierarchy", "Contrast"]];
@@ -148,8 +167,11 @@ const POLES = [["air-density", "air", "density"], ["grid-break", "grid", "break"
   ["warm-cold", "warm", "cold"], ["quiet-loud", "quiet", "loud"], ["organic-geometric", "organic", "geometric"],
   ["sacred-utilitarian", "sacred", "utilitarian"], ["retro-future", "retro", "future"],
   ["minimal-excess", "minimal", "excess"], ["single-collage", "single idea", "collage"]];
-const ROLES = [["reference", "📚 Reference"], ["tool", "🛠 Tool"], ["source", "🔁 Source"], ["learn", "🎓 Learn"],
-  ["community", "🧑‍🤝‍🧑 Community"], ["shop", "🛒 Shop"]];
+// [value, label, natures it applies to]
+const ROLES = [["reference", "📚 Reference", "taste"], ["sweep", "🔁 Taste sweep", "taste"],
+  ["tool", "🛠 Tool", "taste utility"], ["ideas", "📅 Content ideas", "taste utility"], ["learn", "🎓 Learn", "taste utility"],
+  ["community", "🧑‍🤝‍🧑 Community", "taste utility"], ["shop", "🛒 Shop", "taste utility"]];
+const ROLE_TITLE = { sweep: "the taste loop revisits it regularly for new work", ideas: "a source of occasions and topics for content" };
 
 const $ = (s) => document.querySelector(s);
 const state = { axis: "", folder: "", show: "unrated", q: "", cur: null, ratings: {}, draft: null,
@@ -212,8 +234,8 @@ function current() {
 
 function draftFor(id) {
   const r = state.ratings[id] || {};
-  return { verdict: r.verdict || null, why: r.why || "", dims: [...(r.dims || [])], poles: { ...(r.poles || {}) },
-    roles: [...(r.roles || [])], star: !!r.star };
+  return { nature: r.nature || byId[id].nature || "taste", verdict: r.verdict || null, why: r.why || "",
+    dims: [...(r.dims || [])], poles: { ...(r.poles || {}) }, roles: [...(r.roles || [])], star: !!r.star };
 }
 
 function chip(label, pressed, onclick, cls = "", title = "") {
@@ -231,18 +253,29 @@ function renderCard() {
   const gone = it.status === "dead" || it.status === "moved";
   const set = (fn) => { fn(d); schedule(); renderCard(); renderRoll(); };
 
-  const verdicts = el("div", { class: "chips" }, VERDICTS.map(([k, lab, hint], i) => {
+  const taste = d.nature === "taste";
+  const natures = el("div", { class: "chips" }, NATURES.map(([k, lab, hint]) => {
+    const c = chip(lab, d.nature === k, () => set((x) => {
+      if (x.nature === k) return;
+      x.nature = k;
+      if (!VERDICTS[k].some(([v]) => v === x.verdict)) x.verdict = null;
+      if (k === "utility") { x.dims = []; x.poles = {}; }
+      x.roles = x.roles.filter((r) => (ROLES.find(([v]) => v === r) || [, , ""])[2].includes(k));
+    }), "", hint);
+    c.textContent = lab; return c; }));
+
+  const verdicts = el("div", { class: "chips" }, VERDICTS[d.nature].map(([k, lab, hint], i) => {
     const c = chip(lab, d.verdict === k, () => set((x) => { x.verdict = x.verdict === k ? null : k; }), "v v-" + k, `${hint} (${i + 1})`);
     c.textContent = lab; return c; }),
     (() => { const c = chip("⭐", d.star, () => set((x) => { x.star = !x.star; }), "star", "Recommend to colleagues (s)"); c.textContent = "⭐ Recommend"; return c; })());
 
   const needWhy = d.verdict && NEEDS_WHY.has(d.verdict) && !d.why.trim();
-  const why = el("textarea", { id: "why", placeholder: "One line: what works here and why — e.g. “one colour field carries the whole composition”",
+  const why = el("textarea", { id: "why", placeholder: WHY_PLACEHOLDER[d.nature],
     disabled: !state.canWrite, "aria-label": "Why" });
   why.value = d.why;
   why.addEventListener("input", () => { d.why = why.value; schedule(); hint.className = "why-hint" + (d.verdict && NEEDS_WHY.has(d.verdict) && !d.why.trim() ? " need" : ""); });
   const hint = el("div", { class: "why-hint" + (needWhy ? " need" : ""),
-    text: "Core, Take and Pass need a why: it becomes an entry in the taste ledger." });
+    text: WHY_HINT[d.nature] });
 
   const dims = el("div", { class: "chips" }, DIMS.map(([k, lab]) => {
     const on = d.dims.includes(k);
@@ -257,9 +290,9 @@ function renderCard() {
     return el("div", { class: "pole" }, ca, el("span", { text: "↔" }), cb);
   }));
 
-  const roles = el("div", { class: "chips" }, ROLES.map(([k, lab]) => {
+  const roles = el("div", { class: "chips" }, ROLES.filter(([, , n]) => n.includes(d.nature)).map(([k, lab]) => {
     const on = d.roles.includes(k);
-    const c = chip(lab, on, () => set((x) => { x.roles = on ? x.roles.filter((y) => y !== k) : [...x.roles, k]; }));
+    const c = chip(lab, on, () => set((x) => { x.roles = on ? x.roles.filter((y) => y !== k) : [...x.roles, k]; }), "", ROLE_TITLE[k] || "");
     c.textContent = lab; return c; }));
 
   const { v } = current();
@@ -274,10 +307,12 @@ function renderCard() {
       gone ? el("span", { class: "tag gone", text: it.status === "moved" ? "moved" : "gone" }) : null,
       gone && it.wayback ? el("a", { href: it.wayback, target: "_blank", rel: "noopener", text: "archive copy" }) : null,
       el("span", { class: "url", text: it.url.replace(/^https?:\/\/(www\.)?/, "") })),
-    el("div", { class: "group" }, el("div", { class: "label" }, "Verdict", el("kbd", { text: "1–5 · s" })), verdicts),
-    el("div", { class: "group" }, el("div", { class: "label", text: "Why" }), why, hint),
-    el("div", { class: "group" }, el("div", { class: "label", text: "What is strong here · up to three" }), dims),
-    el("div", { class: "group" }, el("div", { class: "label", text: "Poles · pick a side, optional" }), poles),
+    el("div", { class: "group" }, el("div", { class: "label" }, "What is it", el("kbd", { text: "t" })), natures),
+    el("div", { class: "group" }, el("div", { class: "label" }, "Verdict",
+      el("kbd", { text: `1–${VERDICTS[d.nature].length} · s` })), verdicts),
+    el("div", { class: "group" }, el("div", { class: "label", text: taste ? "Why" : "What it is for" }), why, hint),
+    taste ? el("div", { class: "group" }, el("div", { class: "label", text: "What is strong here · up to three" }), dims) : null,
+    taste ? el("div", { class: "group" }, el("div", { class: "label", text: "Poles · pick a side, optional" }), poles) : null,
     el("div", { class: "group" }, el("div", { class: "label", text: "Role" }), roles),
     el("div", { class: "nav" },
       el("div", { class: "chips" },
@@ -319,7 +354,7 @@ async function flush() {
   const d = state.draft;
   if (!state.db || !state.canWrite || !d || d.id !== pendingId) { paintSave(); return; }
   pendingId = null;
-  const body = { id: d.id, verdict: d.verdict, why: d.why.trim(), dims: d.dims, poles: d.poles, roles: d.roles,
+  const body = { id: d.id, nature: d.nature, verdict: d.verdict, why: d.why.trim(), dims: d.dims, poles: d.poles, roles: d.roles,
     star: d.star, ts: new Date().toISOString() };
   saving = true; paintSave();
   mine.set(d.id, body.ts);
@@ -346,7 +381,9 @@ document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("clic
 document.addEventListener("keydown", (e) => {
   if (e.target.matches("input, textarea, select") || e.metaKey || e.ctrlKey || e.altKey) return;
   const d = state.draft;
-  if (e.key >= "1" && e.key <= "5" && d && state.canWrite) { const k = VERDICTS[+e.key - 1][0]; d.verdict = d.verdict === k ? null : k; schedule(); renderCard(); renderRoll(); }
+  const vs = d ? VERDICTS[d.nature] : [];
+  if (e.key >= "1" && +e.key <= vs.length && d && state.canWrite) { const k = vs[+e.key - 1][0]; d.verdict = d.verdict === k ? null : k; schedule(); renderCard(); renderRoll(); }
+  else if (e.key === "t" && d && state.canWrite) { document.querySelector('[title="' + (d.nature === "taste" ? NATURES[1][2] : NATURES[0][2]) + '"]')?.click(); }
   else if (e.key === "s" && d && state.canWrite) { d.star = !d.star; schedule(); renderCard(); renderRoll(); }
   else if (e.key === "j" || e.key === "ArrowRight") go(1);
   else if (e.key === "k" || e.key === "ArrowLeft") go(-1);

@@ -12,7 +12,7 @@ AXES = {"1-image": "Image", "2-interface-print": "Interface & Print", "3-space-o
         "4-motion-sound": "Motion & Sound", "5-culture-ideas": "Culture & Ideas", "6-feeds": "Feeds"}
 
 rows = [json.loads(l) for l in (ROOT / "catalog.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
-data = [{k: r.get(k) for k in ("id", "title", "url", "axis", "path", "folder", "kind", "status", "wayback")} for r in rows]
+data = [{k: r.get(k) for k in ("id", "title", "url", "axis", "path", "folder", "kind", "nature", "status", "wayback")} for r in rows]
 tpl = (ROOT / "rater" / "template.html").read_text(encoding="utf-8")
 for marker in ("/*CATALOG*/[]", "/*AXES*/{}"):
     if tpl.count(marker) != 1:

@@ -106,6 +106,10 @@ ROOT = {
 }
 
 FIX = {"Intuitive Muisc Instruments": "Intuitive Music Instruments", "Geneology": "Genealogy"}
+
+# nature: a taste object is judged by how it is made, a utility by what it is for (CHIPS.md).
+# Only the default — the owner flips it per link on the rating page.
+UTILITY_KINDS = {"tool", "service", "shop", "gear", "course"}
 TRACKING = re.compile(r"(?i)^(utm_.*|fbclid|gclid|mc_eid|mc_cid|yclid|_hsenc|_hsmi)$")
 
 
@@ -220,7 +224,7 @@ def main():
                 "id": iid, "title": l["title"] or host(u), "url": u,
                 "axis": AXES[axis], "path": sub,
                 "folder": "/".join([AXES[axis]] + [slug(s) for s in sub]),
-                "kind": kind, "added": added,
+                "kind": kind, "nature": "utility" if kind in UTILITY_KINDS else "taste", "added": added,
                 "origin": "bookmarks:" + "/".join([a.folder] + path),
                 "status": "unchecked",
             })
