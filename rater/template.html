@@ -304,6 +304,7 @@ function renderRoll() {
 
 // ---- saving: one write at a time per document, coalesced ----
 let timer = null, saving = false, lastErr = "", pendingId = null;
+const mine = new Map();  // id -> ts of this view's last write: its echo from the store is not news
 function saveText() {
   if (!state.db) return "Ratings can't be saved in this view";
   if (!state.canWrite) return "Read-only: you can view ratings but not change them";
@@ -321,6 +322,7 @@ async function flush() {
   const body = { id: d.id, verdict: d.verdict, why: d.why.trim(), dims: d.dims, poles: d.poles, roles: d.roles,
     star: d.star, ts: new Date().toISOString() };
   saving = true; paintSave();
+  mine.set(d.id, body.ts);
   try { await state.db.collection("ratings").doc(d.id).set(body); lastErr = ""; state.ratings[d.id] = body; }
   catch (e) { lastErr = (e && (e.message || e.code)) || "the store refused the write"; }
   saving = false; paintSave(); progress();
@@ -370,7 +372,13 @@ fillFilters(); progress(); renderCard(); renderRoll();
     if (pendingId && state.ratings[pendingId]) next[pendingId] = state.ratings[pendingId];
     state.ratings = next; state.loaded = true;
     progress();
-    if (!pendingId && !timer) { state.draft = null; renderCard(); }
+    // Rebuild the card only for news from elsewhere: rebuilding replaces the why box and drops
+    // the caret, so never while it has focus, while a save is pending, or for our own echo.
+    const incoming = next[state.cur];
+    const echo = !incoming || mine.get(state.cur) === incoming.ts;
+    const typing = document.activeElement && document.activeElement.id === "why";
+    if (!pendingId && !timer && !saving && !echo && !typing) { state.draft = null; renderCard(); }
+    else paintSave();
     renderRoll();
   }, (err) => { lastErr = err?.message || err?.code || "lost the connection to the store"; paintSave(); });
 })();

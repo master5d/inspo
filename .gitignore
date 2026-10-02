@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 bookmarks*.html
 rater/index.html
+.impeccable/
