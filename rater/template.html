@@ -297,7 +297,8 @@ function renderCard() {
 
   const { v } = current();
   const idx = v.findIndex((x) => x.id === it.id);
-  card.replaceChildren(
+  // replaceChildren prints null as the text "null": hidden groups must be dropped, not passed
+  card.replaceChildren(...[
     el("div", {},
       el("div", { class: "crumbs", text: [AXES[it.axis] || it.axis, ...it.path].join(" › ") }),
       el("h2", { class: "title" }, el("a", { href: it.url, target: "_blank", rel: "noopener", text: it.title })),
@@ -320,7 +321,7 @@ function renderCard() {
         el("button", { type: "button", class: "btn primary", onclick: () => go(1), text: "Next →" })),
       el("span", { class: "save", id: "save", text: saveText() }),
       el("span", { class: "progress", text: idx >= 0 ? `${idx + 1} / ${v.length} in view` : "" })),
-  );
+  ].filter(Boolean));
 }
 
 function renderRoll() {
