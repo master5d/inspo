@@ -12,7 +12,7 @@
 |  | [GrowthHackers - A Community for Agile Growth Obsessed Marketers and Developers to Connect, Share and Get Inspired](https://growthhackers.com/) | `magazine` |  |
 |  | [IAB - Dedicated to the Growth of the Interactive Advertising Marketplace](https://www.iab.com/) | `magazine` |  |
 |  | [Landing Page and Conversion Optimization Blog \| Unbounce](https://unbounce.com/blog/) | `magazine` |  |
-| 🪦 | [Online Marketing Resources: Search Engines, Social Media, Content, Analytics etc.](http://www.doz.com/marketing-resources) · _no archive copy_ | `magazine` |  |
+| 🪦 | [Online Marketing Resources: Search Engines, Social Media, Content, Analytics etc.](http://www.doz.com/marketing-resources) · [archive](https://web.archive.org/web/20161219113517/http://www.doz.com:80/marketing-resources) | `magazine` |  |
 | 🛡 | [Search Engine Watch (#SEW) - Search Engine Marketing (SEM), Paid Search Advertising (PPC) & Search Engine Optimization (SEO)](http://searchenginewatch.com/) | `magazine` |  |
 |  | [Social Media Examiner: Social media marketing how to, research, case studies, news and more! \| Social Media Examiner](https://www.socialmediaexaminer.com/) | `magazine` |  |
 |  | [The BuzzStream Blog - Link Building, PR, Content Marketing & More](https://www.buzzstream.com/blog/) | `magazine` |  |

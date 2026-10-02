@@ -7,6 +7,6 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 | 🪦 | [Boldomatic](http://boldomatic.com/view/editor) · [archive](https://web.archive.org/web/20200418113408/http://boldomatic.com:80/view/editor) | `tool` |  |
-| 🪦 | [Notegraphy](https://notegraphy.com/) · _no archive copy_ | `tool` |  |
+| 🪦 | [Notegraphy](https://notegraphy.com/) · [archive](https://web.archive.org/web/20201112035814/https://notegraphy.com/) | `tool` |  |
 |  | [Online Quote Poster Maker](https://quotescover.com/) | `tool` |  |
 |  | [Quotery](https://www.quotery.com/) | `tool` |  |

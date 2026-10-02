@@ -8,6 +8,6 @@
 |---|---|---|---|
 |  | [COLOR DECODER - Fashion Trendsetter](https://www.fashiontrendsetter.com/v2/colortrends/color-decoder/) | `tool` |  |
 | 🪦 | [Color Intelligence - Color Trend Highlights Spring/Summer 2021](https://www.pantone.com/color-intelligence/articles/colors/color-trend-highlights-spring-summer-2021) · [archive](https://web.archive.org/web/20200817180530/https://www.pantone.com/color-intelligence/articles/colors/color-trend-highlights-spring-summer-2021) | `tool` |  |
-| 🪦 | [Color of the Day - Colorstrology by Michele Bernhardt](https://www.pantone.com/color-intelligence/color-education/colorstrology) · _no archive copy_ | `tool` |  |
+| 🪦 | [Color of the Day - Colorstrology by Michele Bernhardt](https://www.pantone.com/color-intelligence/color-education/colorstrology) · [archive](https://web.archive.org/web/20181014005042/https://www.pantone.com/color-intelligence/color-education/colorstrology) | `tool` |  |
 |  | [ColorScheme.Ru — Цветовой круг он-лайн: Подбор цветов и генерация цветовых схем](https://colorscheme.ru/) | `tool` |  |
 |  | [RGB #B5123F \| 18-1761 TPX Ski Patrol \| RGB Chart & Multi Tool](http://www.perbang.dk/rgb/B5123F/) | `tool` |  |

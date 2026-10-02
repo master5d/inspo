@@ -44,16 +44,31 @@ def fetch(url):
         return None, None, f"{type(e).__name__}: {str(getattr(e, 'reason', e))[:120]}"
 
 
-def wayback(url, added):
-    ts = (added or "").replace("-", "") or "2017"
-    q = "https://archive.org/wayback/available?" + urllib.parse.urlencode({"url": url, "timestamp": ts})
+def _wayback_once(url, ts):
+    params = {"url": url}
+    if ts:
+        params["timestamp"] = ts
+    q = "https://archive.org/wayback/available?" + urllib.parse.urlencode(params)
     try:
         with urllib.request.urlopen(urllib.request.Request(q, headers=UA), timeout=25, context=CTX) as r:
             snap = json.load(r).get("archived_snapshots", {}).get("closest") or {}
             u = snap.get("url") if snap.get("available") else None
             return u.replace("http://web.archive.org/", "https://web.archive.org/", 1) if u else None
-    except Exception:  # noqa: BLE001 - archive.org is best effort; absence is recorded as null
+    except Exception:  # noqa: BLE001 - archive.org is best effort
         return None
+
+
+def wayback(url, added):
+    """Closest snapshot. The availability API often answers empty on the first call (seen
+    2026-10-02: 4 of 4 "no copy" links had one on retry), so a single miss is not absence:
+    try dated, then undated, then with the path trimmed of stray whitespace and slashes."""
+    ts = (added or "").replace("-", "") or "2017"
+    for u in dict.fromkeys([url, url.replace("%20", "").rstrip("/")]):
+        for t in (ts, None):
+            w = _wayback_once(u, t)
+            if w:
+                return w
+    return None
 
 
 def verdict(row):
