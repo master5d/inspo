@@ -4,7 +4,7 @@
 
 A hand-collected library of web resources for designers, artists and makers — galleries, studios, magazines, tools — gathered over years of bookmarking and now sorted, link-checked and (gradually) rated.
 
-**433 links** · 308 alive · 27 redirected · 52 unverifiable (bot wall) · 46 gone, with archive copies where they exist · 0 rated
+**433 links** · 334 alive · 0 redirected · 52 unverifiable (bot wall) · 47 gone, with archive copies where they exist · 0 rated
 
 ## Axes
 

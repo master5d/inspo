@@ -10,7 +10,7 @@
 |  | [Anton Kononov \| Executive Art Director & Chief Creative Technologist](https://antonkononov.com/) | `artist` |  |
 |  | [Crayon The Grids – Maps Of Street Layouts Colored By Orientation](https://www.datapointed.net/2014/10/maps-of-street-grids-by-orientation/) | `artist` |  |
 |  | [Dana Huffman Studios](https://www.danahuffman.com/) | `artist` |  |
-| ↪ | [Fatima Masumeh Shrine, Qom, Iran \| Bored Panda](http://www.boredpanda.com/mosque-ceilings-2/) | `artist` |  |
+|  | [Fatima Masumeh Shrine, Qom, Iran \| Bored Panda](https://www.boredpanda.com/mosque-ceilings-2/) | `artist` |  |
 |  | [Lowpoly Bot (@Lowpolybot) / X](https://x.com/lowpolybot) | `artist` |  |
 |  | [Michael Robinson](http://michaelrobinsonnycart.com/) | `artist` |  |
 |  | [Silk – Interactive Generative Art](http://weavesilk.com/) | `artist` |  |

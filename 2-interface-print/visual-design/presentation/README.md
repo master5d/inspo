@@ -10,8 +10,8 @@
 |---|---|---|---|
 | 🛡 | [Custom Presentation Design in PowerPoint, Keynote and more \| 24Slides](https://24slides.com/) | `service` |  |
 |  | [Haiku Deck: Presentation Software and Online Presentation Tools](https://www.haikudeck.com/) | `service` |  |
-| ↪ | [Microsoft Sway \| Create visually striking newsletters, presentations, and documentation in minutes](https://sway.office.com/) | `service` |  |
-| ↪ | [PowerPoint Agency - Slidor](https://en.slidor.fr/) | `service` |  |
+|  | [Microsoft Sway \| Create visually striking newsletters, presentations, and documentation in minutes](https://sway.cloud.microsoft/) | `service` |  |
+|  | [PowerPoint Agency - Slidor](https://www.slidor.agency/) | `service` |  |
 |  | [Presentation Software \| Online Presentation Tools \| Prezi](https://prezi.com/) | `service` |  |
 | 🪦 | [Presentation Software \| SlideRocket and ClearSlide](https://www.clearslide.com/product/sliderocket/) · [archive](https://web.archive.org/web/20200407153704/https://www.clearslide.com/product/sliderocket/) | `service` |  |
 |  | [Share and Discover Knowledge on LinkedIn SlideShare](https://www.slideshare.net/) | `service` |  |

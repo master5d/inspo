@@ -8,7 +8,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| ↪ | [A History of Modern Music the timeline Music guardian.co.uk](http://www.guardian.co.uk/music/interactive/2011/jun/11/history-modern-music-timeline) | `reference` |  |
+|  | [A History of Modern Music the timeline Music guardian.co.uk](https://www.theguardian.com/music/interactive/2011/jun/11/history-modern-music-timeline) | `reference` |  |
 |  | [ocf.berkeley.edu/~acowen/music.html#modal](https://www.ocf.berkeley.edu/~acowen/music.html) | `reference` |  |
 |  | [psybient.org - psychill and other mind-expanding music, psytrance festivals and events : chillout, psychill, psybient, ambient, psydub, psybass, psystep, downtempo, world, ethnic, idm and meditative universe.](https://www.psybient.org/) | `reference` |  |
 |  | [Soundiiz - Transfer playlists and favorites between different streaming services](https://soundiiz.com/) | `reference` |  |

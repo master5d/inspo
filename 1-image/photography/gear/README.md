@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  | [Digital Photography Review](https://www.dpreview.com/) | `gear` |  |
 |  | [DP Review](https://www.dpreview.com/) | `gear` |  |
-| ↪ | [DSLR Rigs and Accessories \| Cinema Accessories \| Production Gear \| Camera Rigs \| Redrock Micro](http://store.redrockmicro.com/) | `gear` |  |
+|  | [DSLR Rigs and Accessories \| Cinema Accessories \| Production Gear \| Camera Rigs \| Redrock Micro](https://shop.redrockmicro.com/) | `gear` |  |
 |  | [Manfrotto: Camera Tripods & Photography Accessories](https://www.manfrotto.com/us-en/) | `gear` |  |
 |  | [Meet Arsenal 2, the Intelligent Camera Assistant](https://witharsenal.com/) | `gear` |  |
 |  | [Popular Photography Magazine Digital Camera Reviews, Photography Tips, Buying Guide](https://www.popphoto.com/) | `gear` |  |

@@ -8,4 +8,4 @@
 |---|---|---|---|
 |  | [Product Hunt](https://www.producthunt.com/) | `magazine` |  |
 | 🛡 | [The Information](https://www.theinformation.com/) | `magazine` |  |
-| ↪ | [Лучшие за сутки / Посты / Хабрахабр](http://habrahabr.ru/) | `magazine` |  |
+|  | [Лучшие за сутки / Посты / Хабрахабр](https://habr.com/ru/feed/) | `magazine` |  |

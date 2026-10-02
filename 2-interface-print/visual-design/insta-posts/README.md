@@ -13,7 +13,7 @@
 |  | [AutoDraw](https://www.autodraw.com/) | `tool` |  |
 | 🛡 | [Beautiful Free Images & Pictures \| Unsplash](https://unsplash.com/) | `tool` |  |
 | 🪦 | [Camera Effects](https://www.facebook.com/frames/manage/) · [archive](https://web.archive.org/web/20201207160815/https://www.facebook.com/frames/manage/) | `tool` |  |
-| ↪ | [Circular Profile Picture Maker with Border](https://profilepicturemaker.com/) | `tool` |  |
+|  | [Circular Profile Picture Maker with Border](https://www.profilepicture.ai/) | `tool` |  |
 | 🛡 | [Collaborate & Create Amazing Graphic Design for Free](https://www.canva.com/) | `tool` |  |
 |  | [Easy Promotional Posters, Graphics & Videos \| PosterMyWall](https://www.postermywall.com/) | `tool` |  |
 |  | [Fonts, Logos & Icons from GraphicRiver](https://graphicriver.net/) | `tool` |  |
@@ -23,7 +23,7 @@
 |  | [Free Vector Maps \| Royalty-Free Vector Maps](https://freevectormaps.com/) | `tool` |  |
 | 🛡 | [GraphicsFuel - Free PSD, Graphic & Web Design Resources \| GraphicsFuel](https://www.graphicsfuel.com/) | `tool` |  |
 |  | [Lost and Taken - Free Texture Stock Photos](https://lostandtaken.com/) | `tool` |  |
-| ↪ | [Online Vector Graphic Design App & Icon Image Editor - Gravit Designer](https://www.designer.io/en/) | `tool` |  |
+|  | [Online Vector Graphic Design App & Icon Image Editor - Gravit Designer](https://www.coreldraw.com/en/product/go/) | `tool` |  |
 |  | [Pop Art Inspired by Lichtenstein -Photoshop Tutorial :: Melissa Evans](https://www.melissaevans.com/tutorials/pop-art-inspired-by-lichtenstein/2) | `tool` |  |
 |  | [Readymag — design anything on the web](https://readymag.com/) | `tool` |  |
 |  | [Stock Photos, Vectors and Royalty Free Images from 123RF](https://www.123rf.com/) | `tool` |  |

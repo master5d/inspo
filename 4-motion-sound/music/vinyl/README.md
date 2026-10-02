@@ -6,4 +6,4 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| ↪ | [Zoetrope Vinyls](https://www.zoetropevinyls.com/) | `shop` |  |
+|  | [Zoetrope Vinyls](https://animatedrecordcompany.com/) | `shop` |  |

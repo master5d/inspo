@@ -7,5 +7,5 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [MusicBee - Music Manager and Player](https://getmusicbee.com/) | `tool` |  |
-| ↪ | [My Creators - Winamp](https://player.winamp.com/) | `tool` |  |
+|  | [My Creators - Winamp](https://winamp.com/player) | `tool` |  |
 |  | [The All-in-One Video Platform for Music Lessons Online \| MOOZ](https://mooz.pro/) | `tool` |  |

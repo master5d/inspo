@@ -10,7 +10,7 @@
 |  | [art Archives - Psychedelic Frontier](http://psychedelicfrontier.com/category/art/) | `artist` |  |
 |  | [Arte Sagrado](https://arte-sagrado.blogspot.com/) | `artist` |  |
 |  | [Autumn Skye ART](https://autumnskyeart.com/) | `artist` |  |
-| ↪ | [Eloh Projects – Vision. Execution. Realization](https://elohprojects.com/) | `artist` |  |
+|  | [Eloh Projects – Vision. Execution. Realization](https://elohlabs.com/) | `artist` |  |
 | 🪦 | [Fine Art - Anastasia Frank´s Artworks](https://www.anastasiafrank.de/gallery/fine-art/) · [archive](https://web.archive.org/web/20190301230302/https://www.anastasiafrank.de/gallery/fine-art/) | `artist` |  |
 | 🪦 | [Parable Visions Art By Cameron Gray](https://parablevisions.com/gallery/) · [archive](https://web.archive.org/web/20180525203111/https://parablevisions.com/gallery/) | `artist` |  |
 |  | [Pumayana Visionary Artist - Official page of Visionary Artist PUMAYANA](https://pumayana.com/) | `artist` |  |

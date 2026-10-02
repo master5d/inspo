@@ -6,7 +6,7 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| ↪ | [Bored Panda - The Only Magazine For Pandas](https://www.boredpanda.com/) | `magazine` |  |
+|  | [Bored Panda - The Only Magazine For Pandas](https://www.boredpanda.com/) | `magazine` |  |
 | 🛡 | [Fast Company \| The future of business](https://www.fastcompany.com/) | `magazine` |  |
 |  | [Greatist: Homepage](https://greatist.com/) | `magazine` |  |
 |  | [Lifehacker \| Do everything better](https://lifehacker.com/) | `magazine` |  |
@@ -18,4 +18,4 @@
 |  | [theSkimm - Your go-to for the info and tools you need to live your smartest life. \| theSkimm](https://www.theskimm.com/) | `magazine` |  |
 |  | [Upworthy \| Sharing the best of humanity with the world, one story at a time.](https://www.upworthy.com/) | `magazine` |  |
 |  | [Афиша Daily](https://daily.afisha.ru/) | `magazine` |  |
-| ↪ | [Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.](https://dzen.ru/) | `magazine` |  |
+|  | [Дзен — главная новостная информационная платформа, которая помогает миллионам людей узнавать, что происходит в мире.](https://dzen.ru/) | `magazine` |  |

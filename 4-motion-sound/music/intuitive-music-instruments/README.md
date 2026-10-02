@@ -6,6 +6,6 @@
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|
-| ↪ | [Tuning Forks Evolved \| Earth Tuned](https://www.tunedearth.com/) | `shop` |  |
+|  | [Tuning Forks Evolved \| Earth Tuned](https://www.earthtuned.com/) | `shop` |  |
 |  | [Whistling Vessels – Magical Mysteries \| Shamans Market](https://www.shamansmarket.com/blogs/musings/whistling-vessels-magical-mysteries?srsltid=AfmBOopIkv-WcP8wyIadMlaLNpyq55aCCZujBMW6tWdpNproofabG6mR) | `shop` |  |
 |  | [Всем калимба! kalimba.fm](https://kalimba.fm/) | `shop` |  |

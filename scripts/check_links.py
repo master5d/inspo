@@ -7,6 +7,7 @@ status:
   redirected - lands on another site (final_url recorded; the link itself is kept)
   moved      - a deep link that now lands on another site's front page: the page is gone
   blocked    - 401/403/429/503: the site refuses robots, we could not verify (NOT the same as alive)
+  (a hand-set `pin` overrides the verdict; the robot's answer is kept in `observed`)
   dead       - 404/410, other errors, or unreachable
 For dead and moved links the closest Wayback Machine snapshot (to the date the link was saved)
 is stored in `wayback`. A link that only switched http->https or www is updated in place.
@@ -72,8 +73,14 @@ def verdict(row):
         out["status"] = "alive"
         if final and final != row["url"] and _path(final) == _path(row["url"]):
             out["url"] = final  # http->https / www only: same page
+    # A human verdict wins over the robot's: `pin` is set by hand (with `note`) when the
+    # robot's view is known to be wrong — e.g. a site that sends robots to a login wall,
+    # or a redirect to a page that no longer has the content. The observed answer is kept.
+    if row.get("pin"):
+        out["observed"] = out["status"]
+        out["status"] = row["pin"]
     if out["status"] in ("dead", "moved"):
-        out["wayback"] = wayback(row["url"], row.get("added"))
+        out["wayback"] = row.get("wayback") or wayback(row["url"], row.get("added"))
     return out
 
 
@@ -89,7 +96,7 @@ def main():
     with cf.ThreadPoolExecutor(16) as ex:
         results = list(ex.map(verdict, todo))
     for r, upd in zip(todo, results):
-        for k in ("final_url", "wayback", "error"):
+        for k in ("final_url", "wayback", "error", "observed"):
             r.pop(k, None)
         r.update(upd)
     with path.open("w", encoding="utf-8", newline="\n") as fh:

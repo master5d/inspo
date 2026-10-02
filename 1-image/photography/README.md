@@ -13,7 +13,7 @@
 |  | [Alexx Henry](https://www.alexxhenry.com/) | `artist` |  |
 |  | [Antonella Arismendi](http://www.antonellaarismendi.com/) | `artist` |  |
 |  | [Audrey Heller Photographs- Fine art that's fun to live with – Squint Pictures](https://shop.audreyheller.com/) | `artist` |  |
-| ↪ | [Bioscapes Gallery \| Olympus LS](https://www.olympus-lifescience.com/en/bioscapes/%20/) | `artist` |  |
+| 🪦 | [Bioscapes Gallery \| Olympus LS](https://www.olympus-lifescience.com/en/bioscapes/%20/) · _no archive copy_ | `artist` |  |
 |  | [Cally Whitham Fine Art Photography](https://cally.co.nz/) | `artist` |  |
 |  | [Clayton Cubitt](https://claytoncubitt.com/) | `artist` |  |
 |  | [Focusing Basics Aperture and Depth of Field](http://www.exposureguide.com/focusing-basics.htm) | `reference` |  |

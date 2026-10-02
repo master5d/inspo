@@ -9,8 +9,8 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [Adam Martinakis](http://adamakis.blogspot.com/) | `artist` |  |
-| ↪ | [Alberto Seveso, official Web Page \| Alberto Seveso](http://burdu976.com/) | `artist` |  |
-| ↪ | [Artspace - Contemporary Art for Sale From The World's Best Artists - home page](https://www.artspace.com/) | `gallery` |  |
+|  | [Alberto Seveso, official Web Page \| Alberto Seveso](https://www.behance.net/indiffident) | `artist` |  |
+|  | [Artspace - Contemporary Art for Sale From The World's Best Artists - home page](https://www.phaidon.com/en-us/pages/artspace) | `gallery` |  |
 | 🪦 | [brandpowder - experiments in visual communication](https://www.brandpowder.com/) · [archive](https://web.archive.org/web/20250224072240/https://www.brandpowder.com/) | `artist` |  |
 |  | [Brian Nori – – Discover the work and career of artist Brian Nori. Artworks, biography, exhibitions, editorial content, news, museum exhibitions, press, and more.](https://briannori.com/) | `artist` |  |
 |  | [conradroset](http://conradroset.blogspot.com/) | `artist` |  |
@@ -19,7 +19,7 @@
 |  | [Dan McPharlin](https://www.danmcpharlin.net/) | `artist` |  |
 |  | [Daniel Merriam - Home](https://www.danielmerriam.com/) | `artist` |  |
 |  | [Denis Sazhin \| Dribbble](https://dribbble.com/iconka) | `artist` |  |
-| ↪ | [Designspiration — Design Inspiration](http://designspiration.net/) | `artist` |  |
+|  | [Designspiration — Design Inspiration](https://www.designspiration.com/) | `artist` |  |
 | 🪦 | [Glass I - atelier olschinsky](http://cargocollective.com/atelierolschinsky/Glass-I) · [archive](https://web.archive.org/web/20140122122944/http://cargocollective.com/atelierolschinsky/Glass-I) | `artist` |  |
 |  | [Home - Roger Dean](https://www.rogerdean.com/) | `artist` |  |
 |  | [John Hee Taek Chae Online Portfolio](https://www.john-chae.com/) | `artist` |  |
@@ -28,9 +28,9 @@
 |  | [SoulScapes Integral Life](http://integrallife.com/art-galleries/soulscapes) | `artist` |  |
 | 🪦 | [Space Suit of the Week The Fox Is Black](http://www.thefoxisblack.com/category/science/space-suit-of-the-week/) · [archive](https://web.archive.org/web/20210309165246/http://thefoxisblack.com/category/science/space-suit-of-the-week/) | `artist` |  |
 |  | [Synaptic Stimuli](https://www.synapticstimuli.com/) | `artist` |  |
-| ↪ | [The Fox is Black — Eat. Drink. Design.](https://thefoxisblack.com/) | `artist` |  |
+|  | [The Fox is Black — Eat. Drink. Design.](https://thefoxisblack.substack.com/) | `artist` |  |
 |  | [TIMEWHEEL](https://timewheel.net/) | `artist` |  |
 |  | [Tom Colbie Art](https://tomcolbieart.wordpress.com/) | `artist` |  |
 |  | [VECTRO AVE Art & Design Blog](https://vectroave.com/) | `artist` |  |
-| ↪ | [Vladimir Kush - Home](http://vladimirkush.com/) | `artist` |  |
+|  | [Vladimir Kush - Home](https://kushfineart.com/) | `artist` |  |
 |  | [Герб рода Мамаевых](https://gerbovnik.ru/arms/1273.html) | `artist` |  |

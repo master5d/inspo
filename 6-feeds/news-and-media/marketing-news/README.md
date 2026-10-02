@@ -10,12 +10,12 @@
 | 🛡 | [Advertising Age - Advertising Agency & Marketing Industry News - Advertising Age](http://adage.com/) | `magazine` |  |
 |  | [Brian Honigman's Digital Marketing Blog](http://www.brianhonigman.com/blog/) | `magazine` |  |
 |  | [GrowthHackers - A Community for Agile Growth Obsessed Marketers and Developers to Connect, Share and Get Inspired](https://growthhackers.com/) | `magazine` |  |
-| ↪ | [IAB - Dedicated to the Growth of the Interactive Advertising Marketplace](http://www.iab.net/) | `magazine` |  |
+|  | [IAB - Dedicated to the Growth of the Interactive Advertising Marketplace](https://www.iab.com/) | `magazine` |  |
 |  | [Landing Page and Conversion Optimization Blog \| Unbounce](https://unbounce.com/blog/) | `magazine` |  |
 | 🪦 | [Online Marketing Resources: Search Engines, Social Media, Content, Analytics etc.](http://www.doz.com/marketing-resources) · _no archive copy_ | `magazine` |  |
 | 🛡 | [Search Engine Watch (#SEW) - Search Engine Marketing (SEM), Paid Search Advertising (PPC) & Search Engine Optimization (SEO)](http://searchenginewatch.com/) | `magazine` |  |
 |  | [Social Media Examiner: Social media marketing how to, research, case studies, news and more! \| Social Media Examiner](https://www.socialmediaexaminer.com/) | `magazine` |  |
 |  | [The BuzzStream Blog - Link Building, PR, Content Marketing & More](https://www.buzzstream.com/blog/) | `magazine` |  |
 |  | [The Content Strategist: Brand Publishing, Content Marketing, and Storytelling](https://contently.com:443/strategist/) | `magazine` |  |
-| ↪ | [Think with Google - Discover Marketing Research & Digital Trends](https://www.thinkwithgoogle.com/) | `magazine` |  |
+|  | [Think with Google - Discover Marketing Research & Digital Trends](https://business.google.com/us/think/) | `magazine` |  |
 | 🪦 | [Web Analytics and Digital Marketing Blog by Sameer Khan](http://www.keywebmetrics.com/) · [archive](https://web.archive.org/web/20161219100459/http://www.keywebmetrics.com:80/) | `magazine` |  |

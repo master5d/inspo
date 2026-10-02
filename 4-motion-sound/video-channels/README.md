@@ -9,11 +9,11 @@
 | 🛡 | [BE-AT.TV Features](http://www.be-at.tv/) | `channel` |  |
 |  | [chatroulette](https://chatroulette.com/) | `channel` |  |
 | 🛡 | [Film Movement](http://www.filmmovement.com/) | `channel` |  |
-| ↪ | [Netflix](http://movies.netflix.com/WiHome) | `channel` |  |
+|  | [Netflix](https://www.netflix.com/) | `channel` |  |
 | 🛡 | [Popcorn Time - Download](http://www.time4popcorn.eu/) | `channel` |  |
 |  | [Popcornflix](https://popcornflix.com/) | `channel` |  |
-| ↪ | [South Park Studios](http://www.southparkstudios.com/) | `channel` |  |
-| ↪ | [ustream](http://www.ustream.tv/) | `channel` |  |
+|  | [South Park Studios](https://southpark.cc.com/) | `channel` |  |
+|  | [ustream](https://video.ibm.com/) | `channel` |  |
 | 🪦 | [VBS.TV](http://www.vbs.tv/index.php) · [archive](https://web.archive.org/web/20090607050917/http://www.vbs.tv:80/index.php?) | `channel` |  |
 | 🪦 | [VIDEO Treats! Magazine](http://treatsmagazine.com/video/) · [archive](https://web.archive.org/web/20130926032403/http://treatsmagazine.com:80/video/) | `channel` |  |
 |  | [Vimeo](https://vimeo.com/) | `channel` |  |
