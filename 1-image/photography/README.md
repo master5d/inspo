@@ -4,7 +4,7 @@
 
 [← catalog](../../README.md) · [↑ up](../README.md)
 
-**Sections:** [Gear](gear/README.md) (9) · [Photo Portfolio](photo-portfolio/README.md) (2) · [Macro](macro/README.md) (1) · [Nature](nature/README.md) (1) · [Wireless Mics](wireless-mics/README.md) (1)
+**Sections:** [Gear](gear/README.md) (8) · [Photo Portfolio](photo-portfolio/README.md) (2) · [Macro](macro/README.md) (1) · [Nature](nature/README.md) (1) · [Wireless Mics](wireless-mics/README.md) (1)
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|

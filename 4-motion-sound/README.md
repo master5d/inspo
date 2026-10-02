@@ -6,4 +6,4 @@
 
 _VJing, mixed reality, video, music_
 
-**Sections:** [Music](music/README.md) (46) · [Mixed Reality (AV)](mixed-reality-av/README.md) (16) · [Video Channels](video-channels/README.md) (13) · [Movies](movies/README.md) (2) · [YouTube](youtube/README.md) (1)
+**Sections:** [Music](music/README.md) (46) · [Mixed Reality (AV)](mixed-reality-av/README.md) (14) · [Video Channels](video-channels/README.md) (13) · [Movies](movies/README.md) (2) · [YouTube](youtube/README.md) (1)

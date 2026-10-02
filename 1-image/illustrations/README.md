@@ -29,7 +29,6 @@
 | 🪦 | [Space Suit of the Week The Fox Is Black](http://www.thefoxisblack.com/category/science/space-suit-of-the-week/) · [archive](https://web.archive.org/web/20210309165246/http://thefoxisblack.com/category/science/space-suit-of-the-week/) | `artist` |  |
 |  | [Synaptic Stimuli](https://www.synapticstimuli.com/) | `artist` |  |
 |  | [The Fox is Black — Eat. Drink. Design.](https://thefoxisblack.substack.com/) | `artist` |  |
-|  | [TIMEWHEEL](https://timewheel.net/) | `artist` |  |
 |  | [Tom Colbie Art](https://tomcolbieart.wordpress.com/) | `artist` |  |
 |  | [VECTRO AVE Art & Design Blog](https://vectroave.com/) | `artist` |  |
 |  | [Vladimir Kush - Home](https://kushfineart.com/) | `artist` |  |

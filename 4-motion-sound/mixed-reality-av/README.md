@@ -4,7 +4,7 @@
 
 [← catalog](../../README.md) · [↑ up](../README.md)
 
-**Sections:** [VJing](vjing/README.md) (14) · [VR / AR](vr-ar/README.md) (1)
+**Sections:** [VJing](vjing/README.md) (12) · [VR / AR](vr-ar/README.md) (1)
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|

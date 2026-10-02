@@ -4,7 +4,7 @@
 
 [← catalog](../../../README.md) · [↑ up](../README.md)
 
-**Sections:** [Soft Sites](soft-sites/README.md) (4) · [Software](software/README.md) (4) · [Visuals](visuals/README.md) (2) · [Gear](gear/README.md) (1)
+**Sections:** [Soft Sites](soft-sites/README.md) (4) · [Software](software/README.md) (2) · [Visuals](visuals/README.md) (2) · [Gear](gear/README.md) (1)
 
 |   | Resource | Kind | Rating |
 |---|---|---|---|

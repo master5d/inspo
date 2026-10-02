@@ -4,14 +4,14 @@
 
 A hand-collected library of web resources for designers, artists and makers — galleries, studios, magazines, tools — gathered over years of bookmarking and now sorted, link-checked and (gradually) rated.
 
-**431 links** · 379 alive · 0 redirected · 2 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
+**427 links** · 375 alive · 0 redirected · 2 unverifiable (bot wall) · 50 gone, with archive copies where they exist · 0 rated
 
 ## Axes
 
-- 🎨 **[Image](1-image/README.md)** (108) — illustration, painting, photography — what a single frame can hold
+- 🎨 **[Image](1-image/README.md)** (106) — illustration, painting, photography — what a single frame can hold
 - 🖥 **[Interface & Print](2-interface-print/README.md)** (110) — web, type, print, presentation, social posts
 - 🏛 **[Space & Object](3-space-object/README.md)** (31) — architecture, installations, industrial design, fashion
-- 🎞 **[Motion & Sound](4-motion-sound/README.md)** (78) — VJing, mixed reality, video, music
+- 🎞 **[Motion & Sound](4-motion-sound/README.md)** (76) — VJing, mixed reality, video, music
 - 💭 **[Culture & Ideas](5-culture-ideas/README.md)** (48) — magazines, blogs, consciousness, discovery feeds
 - 📰 **[Feeds](6-feeds/README.md)** (56) — news and reading, kept for the record — not inspiration as such
 
@@ -19,8 +19,8 @@ A hand-collected library of web resources for designers, artists and makers — 
 
 ```
 inspo/
-├── 1-image/  (108)
-│   ├── illustrations/  (66)
+├── 1-image/  (106)
+│   ├── illustrations/  (65)
 │   │   ├── communities/  (12)
 │   │   ├── integral-art/  (10)
 │   │   ├── geometric/  (8)
@@ -30,8 +30,8 @@ inspo/
 │   │   ├── romantic-love-messages/  (2)
 │   │   ├── gif/  (1)
 │   │   └── sigils/  (1)
-│   ├── photography/  (39)
-│   │   ├── gear/  (9)
+│   ├── photography/  (38)
+│   │   ├── gear/  (8)
 │   │   │   └── photo-accessories/  (3)
 │   │   ├── photo-portfolio/  (2)
 │   │   │   └── print/  (1)
@@ -69,7 +69,7 @@ inspo/
 │   ├── installations/  (5)
 │   ├── architecture/  (3)
 │   └── tiny-homes/  (1)
-├── 4-motion-sound/  (78)
+├── 4-motion-sound/  (76)
 │   ├── music/  (46)
 │   │   ├── music-making/  (7)
 │   │   ├── services/  (7)
@@ -82,10 +82,10 @@ inspo/
 │   │   ├── server/  (2)
 │   │   ├── ar-vr-sound/  (1)
 │   │   └── vinyl/  (1)
-│   ├── mixed-reality-av/  (16)
-│   │   ├── vjing/  (14)
+│   ├── mixed-reality-av/  (14)
+│   │   ├── vjing/  (12)
 │   │   │   ├── soft-sites/  (4)
-│   │   │   ├── software/  (4)
+│   │   │   ├── software/  (2)
 │   │   │   ├── visuals/  (2)
 │   │   │   └── gear/  (1)
 │   │   └── vr-ar/  (1)

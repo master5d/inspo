@@ -6,4 +6,4 @@
 
 _illustration, painting, photography — what a single frame can hold_
 
-**Sections:** [Illustrations](illustrations/README.md) (66) · [Photography](photography/README.md) (39) · [Mems](mems/README.md) (2) · [Wallpapers](wallpapers/README.md) (1)
+**Sections:** [Illustrations](illustrations/README.md) (65) · [Photography](photography/README.md) (38) · [Mems](mems/README.md) (2) · [Wallpapers](wallpapers/README.md) (1)

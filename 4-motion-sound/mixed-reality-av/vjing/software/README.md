@@ -7,6 +7,4 @@
 |   | Resource | Kind | Rating |
 |---|---|---|---|
 |  | [ArKaos GrandVJ, VJ Software, live video mixer for VJs DJs and more.](https://vj.arkaos.com/) | `tool` |  |
-|  | [MadMapper Home](https://madmapper.com/) | `tool` |  |
 |  | [modul8 - garageCube](https://www.garagecube.com/modul8/) | `tool` |  |
-|  | [Resolume VJ Software & Media Server](https://www.resolume.com/) | `tool` |  |
