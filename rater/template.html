@@ -37,8 +37,8 @@ header.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-cont
 h1 { font: 700 clamp(26px, 4vw, 34px)/1.05 var(--display); letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
 .progress { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .bar { height: 4px; background: var(--rule); border-radius: 2px; overflow: hidden; }
-.bar > i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s; }
-.notice { font-size: 13px; color: var(--muted); border-left: 3px solid var(--watch); padding: 6px 10px; background: var(--sheet); }
+.bar > i { display: block; height: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .3s; }
+.notice { font-size: 13px; color: var(--muted); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 12px; background: var(--sheet); }
 
 .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .filters select, .filters input { font: 14px var(--body); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; min-width: 0; }
@@ -201,7 +201,7 @@ function fillFilters() {
 function progress() {
   const rated = Object.values(state.ratings).filter((r) => r && r.verdict).length;
   $("#progress").textContent = state.loaded ? `${rated} of ${CATALOG.length} rated` : `${CATALOG.length} links · loading ratings…`;
-  $("#barfill").style.width = (100 * rated / CATALOG.length).toFixed(1) + "%";
+  $("#barfill").style.transform = `scaleX(${(rated / CATALOG.length).toFixed(4)})`;
 }
 
 function current() {
