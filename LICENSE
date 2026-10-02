@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 master5d
+
+The selection, arrangement, annotations and ratings in this repository (catalog.jsonl,
+ratings.jsonl, CHIPS.md and the generated README files) are licensed under the Creative
+Commons Attribution 4.0 International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+The linked websites and their content belong to their respective owners and are not
+covered by this license.
+
+The scripts in scripts/ are released under the MIT License:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software, to deal in the software without restriction, subject to the condition that the
+above copyright notice is included in all copies. The software is provided "as is",
+without warranty of any kind.
