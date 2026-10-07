@@ -102,3 +102,10 @@ one way only, catalog → lab:
   link in `5-culture-ideas/publishers/`, as a folder rule (owner, 2026-10-02);
   links with the `ideas` role join the content-calendar sources;
 - the whole catalog is indexed into the lab's knowledge base.
+
+The lab side of this is `NAUTILUS core/desops/scripts/taste_catalog.py` (`bridge`, `poles`,
+`sources`; each has a dry run). It reads `catalog.jsonl` and `ratings.jsonl` and writes nothing
+here. Two of its rules are worth knowing while rating: a taste verdict without `dims` cannot enter
+the ledger (a judgement needs at least one dimension), and links on the Culture & Ideas and Feeds
+axes have no medium in the lab's vocabulary, so their verdicts stay in the catalog. `python
+scripts/validate_ratings.py` checks the file against this schema before the bridge reads it.

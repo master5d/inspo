@@ -137,7 +137,7 @@ inspo/
 
 ## How it is built
 
-`catalog.jsonl` is the source of truth (one link per line); `ratings.jsonl` holds the ratings. Every README is generated: `python scripts/render.py`. Links are re-checked with `python scripts/check_links.py`. The initial import came from a browser bookmarks export (`scripts/import_bookmarks.py`).
+`catalog.jsonl` is the source of truth (one link per line); `ratings.jsonl` holds the ratings. Every README is generated: `python scripts/render.py`. Links are re-checked with `python scripts/check_links.py`. Ratings are pulled from the rating page's store with `python scripts/pull_ratings.py <export_dir>` and checked against `CHIPS.md` with `python scripts/validate_ratings.py` (exit 1 on any bad line). The initial import came from a browser bookmarks export (`scripts/import_bookmarks.py`).
 
 ## License
 
